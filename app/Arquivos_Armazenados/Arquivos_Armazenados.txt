@@ -1,0 +1,5 @@
+Remove the file "Arquivos_Armazenados.txt".
+Just leave the Folder "Arquivos_Armazenados", to keep the files from the imported Excel Files and the Exported Results.
+After clicking in "Limpar e Fechar" Button, on the "Main Page";
+It'll Clear the temporary Excel Files, Remove everything from "Arquivos_Armazenados";
+And will Kill the Server, closing all Ports used to run the Analysis (Ports => 5001, 8501 and 8502).
