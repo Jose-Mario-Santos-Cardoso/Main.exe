@@ -1,0 +1,5 @@
+Your Executable ("Main.exe") Will be Here!!
+To Create the Executable, You Gotta Run the following "Pyinstaller" Command 
+on the Terminal (outside "app" 's Directory):
+
+pyinstaller --onefile --add-data "app/view/index.html;app/view" --add-data "app/view/App.html;app/view" --add-data "app/view/css/reset.css;app/view/css" --add-data "app/view/css/style.css;app/view/css" --add-data "app/view/css/log_style.css;app/view/css" --add-data "app/view/js/script.js;app/view/js" --add-data "app/Arquivos_Armazenados;app/Arquivos_Armazenados" --add-data "app/model/streamlit_app.py;app/model" --add-data "app/model/Side_Consult.py;app/model" --add-data "app/model/Users.py;app/model" --add-data "myenv;myenv" --hidden-import "pandas._libs.tslibs.timedeltas" --hidden-import "pandas._libs.tslibs.timestamps" --hidden-import "pandas._libs.tslibs.np_datetime" --hidden-import "pandas._libs.tslibs.nattype" --hidden-import "pandas._libs.tslibs.timezones" --hidden-import "streamlit" --hidden-import "flask" --workpath build --distpath dist --specpath . app/controller/Main.py
